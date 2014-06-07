@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="PixelPusher">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/application/libs/PixelPusher.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
