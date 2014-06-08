@@ -15,6 +15,7 @@ public class RegistryService extends Service {
     private final IBinder mBinder = new LocalBinder();
     public DeviceRegistry registry;
     private PixelPusherObserver observer;
+    private Pattern pattern;
 
     // final Messenger mMessenger = new Messenger(new IncomingHandler());
 
@@ -55,6 +56,10 @@ public class RegistryService extends Service {
 
     public DeviceRegistry getRegistry() {
         return registry;
+    }
+
+    public void setPattern(Pattern pattern) {
+        this.pattern = pattern;
     }
 
     class PixelPusherObserver implements Observer {
